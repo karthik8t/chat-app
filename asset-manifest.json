@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/chat-app/static/css/main.a803977f.css",
+    "main.js": "/chat-app/static/js/main.929561e4.js",
+    "static/media/login-card.jpg": "/chat-app/static/media/login-card.65a66d03fc213a082876.jpg",
+    "static/media/Reyna.jpg": "/chat-app/static/media/Reyna.cb53431031cf02fb6661.jpg",
+    "static/media/Chamber-avatar.jpg": "/chat-app/static/media/Chamber-avatar.431b986aa7ed316d6f19.jpg",
+    "static/media/Reyna-mini.jpg": "/chat-app/static/media/Reyna-mini.aaa5fb490864647ce8a8.jpg",
+    "static/media/Viper-avatar.jpg": "/chat-app/static/media/Viper-avatar.068dd853cc30dfc20c92.jpg",
+    "static/media/Sage-mini.jpg": "/chat-app/static/media/Sage-mini.8aca2089f566515a833d.jpg",
+    "static/media/Viper.jpg": "/chat-app/static/media/Viper.0d5c239244d3f0627c42.jpg",
+    "static/media/Reyna-avatar.jpg": "/chat-app/static/media/Reyna-avatar.42943575d5a28237c865.jpg",
+    "static/media/Jett-avatar.jpg": "/chat-app/static/media/Jett-avatar.2d324198750cd3a4bea5.jpg",
+    "static/media/Sage-avatar.jpg": "/chat-app/static/media/Sage-avatar.88c30011dc20bb072159.jpg",
+    "static/media/Phoenix-avatar.jpg": "/chat-app/static/media/Phoenix-avatar.8a722e92da8a4b97fe66.jpg",
+    "static/media/Chamber-mini.jpg": "/chat-app/static/media/Chamber-mini.1a1d1bb101f025206d36.jpg",
+    "static/media/Viper-mini.jpg": "/chat-app/static/media/Viper-mini.0cc9ea381ea00e451e9c.jpg",
+    "static/media/Jett-mini.jpg": "/chat-app/static/media/Jett-mini.eeb7504027991e4c368f.jpg",
+    "static/media/Jett.jpg": "/chat-app/static/media/Jett.b00af103d96eb6faa3d7.jpg",
+    "static/media/Phoenix.jpg": "/chat-app/static/media/Phoenix.88430e1d7ddf14d29d11.jpg",
+    "static/media/Sage.jpg": "/chat-app/static/media/Sage.cc78377a6ba3fed8f4c7.jpg",
+    "static/media/Phoenix-mini.jpg": "/chat-app/static/media/Phoenix-mini.275f9e2fd4010b2e508b.jpg",
+    "static/media/Chamber.jpg": "/chat-app/static/media/Chamber.0ea0ef537d701e2b7cb6.jpg",
+    "static/media/Sage-list.svg": "/chat-app/static/media/Sage-list.92578faed7f42d5aaf56.svg",
+    "static/media/Chamber-list.svg": "/chat-app/static/media/Chamber-list.6ac436577904447555ca.svg",
+    "static/media/Phoenix-list.svg": "/chat-app/static/media/Phoenix-list.d8aed99206668becef27.svg",
+    "static/media/Jett-list.svg": "/chat-app/static/media/Jett-list.270e8436e43976a66590.svg",
+    "index.html": "/chat-app/index.html",
+    "static/media/Viper-list.svg": "/chat-app/static/media/Viper-list.53f2ee95639e9173463a.svg",
+    "static/media/Reyna-list.svg": "/chat-app/static/media/Reyna-list.ea7cf4c1cdb01a9f1d6a.svg",
+    "main.a803977f.css.map": "/chat-app/static/css/main.a803977f.css.map",
+    "main.929561e4.js.map": "/chat-app/static/js/main.929561e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a803977f.css",
+    "static/js/main.929561e4.js"
+  ]
+}
