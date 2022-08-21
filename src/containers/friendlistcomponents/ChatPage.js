@@ -136,7 +136,7 @@ const ChatPage = ({ username, userid }) => {
       }, 2000);
     });
     scrolltobottom();
-  }, [username]);
+  }, []);
 
   // useEffect(() => {
   //   console.log("gotmessage -------------------------------------------");
