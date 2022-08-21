@@ -1,0 +1,83 @@
+/* Chamber */
+.Chamber {
+  background-color: #47b5ff;
+  color: black;
+}
+
+.Chamber .mybg {
+  background-image: url("/public/background/Chamber-list.svg");
+  background-size: contain;
+}
+
+/* .Chamber .bg-glass {
+  background-color: #322c1d60 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+} */
+.Chamber .nav-main {
+  background-color: #ffcb42;
+  color: black;
+}
+.Chamber .nav-sub {
+  background-color: #f0e161;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.Chamber .friend-list {
+  /* background-color: #f1eee9; */
+  /* background-image: url("/public/background/Chamber-list.svg"); */
+  /* background-size: cover; */
+  color: black;
+}
+
+.Chamber-card .bg-glass {
+  background-color: #e3ef4000 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+  color: black;
+}
+
+.Chamber-card .agent-register {
+  background-image: url("/public/Chamber.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+.Chamber .me {
+  background-color: #b20600;
+  color: black;
+}
+.Chamber .them {
+  background-color: #f1eee9;
+  color: black;
+}
+.Chamber .mybtn {
+  background-color: #f0a500;
+  color: white;
+}
+
+.Chamber-card .testimonial-card .card-up {
+  height: 40px;
+  overflow: hidden;
+  /* border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; */
+}
+
+.Chamber-card .aqua-gradient {
+  background: linear-gradient(40deg, #f0a500, #e45826) !important;
+}
+.Chamber .aqua-gradient {
+  background: linear-gradient(40deg, #f0a500, #e45826) !important;
+}
+.Chamber .add-card {
+  background: linear-gradient(40deg, #f0a500, #e45826) !important;
+}
+
+.Chamber-card .testimonial-card .avatar {
+  /* border: 5px solid #fff; */
+  /* border-radius: 50%; */
+  background-image: url("/public/Chamber-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+}

@@ -1,0 +1,85 @@
+/* Fade */
+.Reyna {
+  background-color: #47b5ff;
+  color: black;
+}
+.Reyna .mybg {
+  background-image: url("/public/background/Reyna-list.svg");
+  background-size: cover;
+}
+/* .Fade .bg-glass {
+  background-color: #47acff12 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+} */
+.Reyna .nav-main {
+  background-color: #371b58;
+  color: white;
+}
+.Reyna .nav-sub {
+  background-color: #7858a6;
+  color: white;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.Reyna .friend-list {
+  /* background-color: #950101; */
+  /* background-image: url("/public/background/Reyna-list.svg"); */
+  color: white;
+}
+
+.Reyna-card .bg-glass {
+  background-color: #f806cc00 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+  color: black;
+}
+
+.Reyna .chat-main {
+  /* background-image: url("/public/background/Reyna-list.svg"); */
+  /* background-color: #3d0000; */
+}
+.Reyna-card .agent-register {
+  background-image: url("/public/Reyna.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+.Reyna .me {
+  background-color: #377d71;
+  color: black;
+}
+.Reyna .them {
+  background-color: #bdf2d5;
+  color: black;
+}
+.Reyna .mybtn {
+  background-color: #371b58;
+  color: white;
+}
+
+.Reyna-card .testimonial-card .card-up {
+  height: 40px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.Reyna-card .aqua-gradient {
+  background: linear-gradient(40deg, #7858a6, #371b58) !important;
+}
+.Reyna .add-card {
+  background: linear-gradient(40deg, #7858a6, #371b58) !important;
+}
+/* .Fade .card-body {
+  color: #000b49;
+} */
+
+.Reyna-card .testimonial-card .avatar {
+  /* border: 5px solid #fff; */
+  /* border-radius: 50%; */
+  background-image: url("/public/Reyna-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+}

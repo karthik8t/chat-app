@@ -1,0 +1,80 @@
+/* Sage */
+.Phoenix {
+  background-color: #47b5ff;
+  color: black;
+}
+.Phoenix .mybg {
+  background-image: url("/public/background/Phoenix-list.svg");
+  background-size: cover;
+}
+/* .Sage .bg-glass {
+  background-color: #1cd6cd18 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+} */
+.Phoenix .nav-main {
+  background-color: #f66b0e;
+  color: black;
+}
+.Phoenix .nav-sub {
+  background-color: #ec994b;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.Phoenix .friend-list {
+  /* background-color: #9ed2c6; */
+  /* background-image: url("/public/background/Phoenix-list.svg");
+  background-size: cover; */
+  color: white;
+}
+.Phoenix-card .bg-glass {
+  background-color: #ff5e0000 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+  color: black;
+}
+.Phoenix .chat-main {
+  /* background-color: #8fe3cf; */
+  /* background-image: url("/public/background/Phoenix-list.svg"); */
+}
+.Phoenix-card .agent-register {
+  background-image: url("/public/Phoenix.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+.Phoenix .me {
+  background-color: #377d71;
+  color: black;
+}
+.Phoenix .them {
+  background-color: #bdf2d5;
+  color: black;
+}
+.Phoenix .mybtn {
+  background-color: #1cd6ce;
+  color: white;
+}
+
+.Phoenix-card .testimonial-card .card-up {
+  height: 40px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.Phoenix-card .aqua-gradient {
+  background: linear-gradient(40deg, #f66b0e, #b20600) !important;
+}
+.Phoenix .add-card {
+  background: linear-gradient(40deg, #f66b0e, #b20600) !important;
+}
+
+.Phoenix-card .testimonial-card .avatar {
+  /* border: 5px solid #fff; */
+  /* border-radius: 50%; */
+  background-image: url("/public/Phoenix-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+}

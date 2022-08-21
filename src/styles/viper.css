@@ -1,0 +1,80 @@
+/* Sage */
+.Viper {
+  background-color: #47b5ff;
+  color: black;
+}
+.Viper .mybg {
+  background-image: url("/public/background/Viper-list.svg");
+  background-size: cover;
+}
+/* .Sage .bg-glass {
+  background-color: #1cd6cd18 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+} */
+.Viper .nav-main {
+  background-color: #3ccf4e;
+  color: black;
+}
+.Viper .nav-sub {
+  background-color: #2b7a0b;
+  color: white;
+  border-bottom: 1px solid black;
+}
+.Viper .friend-list {
+  /* background-color: #9ed2c6; */
+  /* background-image: url("/public/background/Viper-list.svg"); */
+  /* background-size: cover; */
+  color: black;
+}
+.Viper-card .bg-glass {
+  background-color: #7dce1300 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+  color: black;
+}
+.Viper .chat-main {
+  /* background-color: #8fe3cf; */
+  /* background-image: url("/public/background/Viper-list.svg"); */
+}
+.Viper-card .agent-register {
+  background-image: url("/public/Viper.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+.Viper .me {
+  background-color: #377d71;
+  color: black;
+}
+.Viper .them {
+  background-color: #bdf2d5;
+  color: black;
+}
+.Viper .mybtn {
+  background-color: #2b7a0b;
+  color: white;
+}
+
+.Viper-card .testimonial-card .card-up {
+  height: 40px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.Viper-card .aqua-gradient {
+  background: linear-gradient(40deg, #7dce13, #2b7a0b) !important;
+}
+.Viper .add-card {
+  background: linear-gradient(40deg, #7dce13, #2b7a0b) !important;
+}
+
+.Viper-card .testimonial-card .avatar {
+  /* border: 5px solid #fff; */
+  /* border-radius: 50%; */
+  background-image: url("/public/Viper-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+}

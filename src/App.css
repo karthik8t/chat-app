@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* login page */
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    );
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+/* friend card  */
+
+.testimonial-card .card-up {
+  height: 40px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.aqua-gradient {
+  background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
+.testimonial-card .avatar {
+  height: 40px;
+  width: 40px;
+  /* margin-top: -60px; */
+  overflow: hidden;
+  /* border: 1px solid rgb(5, 5, 5); */
+  border-radius: 50%;
+  background-image: url("/public/Phoenix-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+}
+.f-card,
+.add-card {
+  color: black;
+}
+
+/* other */
+
+a:hover {
+  background-color: orangered;
+}
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.432) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+.bg-glass-dark {
+  background-color: rgba(2, 2, 2, 0.374) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+input {
+  background-color: hsla(0, 0%, 100%, 0.381) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+.login-chat {
+  background-image: url("/public/login-card.jpg");
+  background-size: cover;
+}
+
+.home-chat {
+  background-image: url("/public/home-chat.jpg");
+  background-size: cover;
+}
+
+.nav-sub {
+  background-color: #66bfbf;
+}
+.me {
+  background-color: #81cacf;
+  color: black;
+  margin-left: auto;
+}
+
+.them {
+  background-color: #dff6ff;
+  color: black;
+}
+
+.preventscroll {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.preventscroll::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.add-friend-icon {
+  background-image: url("/public/add-friend-icon.png");
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+.logout-icon {
+  background-image: url("/public/logout-icon.png");
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+}
+
+/* registration */
+
+.Jett-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Jett-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Chamber-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Chamber-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Viper-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Viper-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Reyna-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Reyna-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Phoenix-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Phoenix-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Sage-mini {
+  width: 100px;
+  height: 100px;
+  background-image: url("/public/miniAgent/Sage-mini.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* custom classes */
+
+.nav-main {
+  background-color: #ccf7f9;
+  color: rgb(0, 0, 0);
+  /* background-image: url("/public/background-main.jpg"); */
+  /* background-size: cover; */
+}
+
+.friend-list {
+  /* background-color: #4cffff; */
+  color: #12d4b4;
+}
+
+.friend-card {
+  background-color: #e7f6f2;
+  color: black;
+
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 3rem;
+}
+
+/* Agents and themes */
+
+.Chamber {
+  background-color: #ef5b0c;
+}
+
+.Chamber .agent-register {
+  background-image: url("/public/Chamber.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+
+.Jett {
+  background-color: #36ae7c;
+}
+
+.Jett .agent-register {
+  background-image: url("/public/Jett.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+
+.Sage {
+  background-color: #36ae7c;
+}
+
+.Sage .agent-register {
+  background-image: url("/public/Sage.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+
+.Reyna {
+  background-color: #515ca6;
+}
+
+.Reyna .agent-register {
+  background-image: url("/public/Reyna.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+
+.Phoenix {
+  background-color: #541690;
+}
+
+.Phoenix .agent-register {
+  background-image: url("/public/Phoenix.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+
+.Viper {
+  background-color: #12d4b4;
+}
+
+.Viper .agent-register {
+  background-image: url("/public/Viper.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}

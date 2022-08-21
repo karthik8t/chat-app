@@ -1,0 +1,78 @@
+/* jett */
+.Jett {
+  background-color: #47b5ff;
+  color: black;
+}
+.Jett .mybg {
+  background-image: url("/public/background/Jett-list.svg");
+  background-size: cover;
+}
+/* .Jett .bg-glass {
+  background-color: #47b5ff3a !important;
+  backdrop-filter: saturate(200%) blur(25px);
+} */
+.Jett .nav-main {
+  background-color: #06283d;
+  color: white;
+}
+.Jett .nav-sub {
+  background-color: #abc9ff;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.Jett .friend-list {
+  /* background-color: #dff6ff; */
+  /* background-image: url("/public/background/Jett-list.svg");
+  background-size: cover; */
+  color: #06283d;
+}
+.Jett .chat-main {
+  /* background-color: #a6d1e6; */
+  /* background-image: url("/public/background/Jett-list.svg"); */
+}
+.Jett-card .bg-glass {
+  background-color: #ffffff00 !important;
+  backdrop-filter: saturate(200%) blur(25px);
+  color: black;
+}
+.Jett-card .agent-register {
+  background-image: url("/public/Jett.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-left: auto; */
+  /* margin-right:auto; */
+  width: 100%;
+  height: 50%;
+}
+.Jett .me {
+  background-color: #1363df;
+  color: black;
+}
+.Jett .them {
+  background-color: #dff6ff;
+  color: black;
+}
+.Jett .mybtn {
+  background-color: #002b5b;
+  color: white;
+}
+
+.Jett-card .aqua-gradient {
+  background: linear-gradient(40deg, #47b5ff, #0f54bc) !important;
+}
+/* ajsdf;asdfkj */
+.Jett .aqua-gradient {
+  background: linear-gradient(40deg, #47b5ff, #0f54bc) !important;
+}
+.Jett .add-card {
+  background: linear-gradient(40deg, #47b5ff, #0f54bc) !important;
+}
+
+.Jett-card .testimonial-card .avatar {
+  /* border: 1px solid rgba(7, 8, 8, 0.621); */
+  /* border-radius: 50%; */
+  background-image: url("/public/Jett-avatar.jpg");
+  /* background-color: #05ffa31e; */
+  background-size: cover;
+  border-radius: 50%;
+}
